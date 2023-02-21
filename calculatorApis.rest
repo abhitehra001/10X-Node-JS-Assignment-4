@@ -1,0 +1,41 @@
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:3000/add
+Content-Type: "application/json"
+
+{
+    "num1": "45.12",
+    "num2": "15.12"
+}
+
+###
+
+POST http://localhost:3000/sub
+Content-Type: "application/json"
+
+{
+    "num1": "45.12",
+    "num2": "15.12"
+}
+
+###
+
+POST http://localhost:3000/multiply
+Content-Type: "application/json"
+
+{
+    "num1": "45.12",
+    "num2": "15.12"
+}
+
+###
+
+POST http://localhost:3000/divide
+Content-Type: "application/json"
+
+{
+    "num1": "45",
+    "num2": "5"
+}
